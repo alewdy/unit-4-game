@@ -1,62 +1,88 @@
-body{
-   background-image: url("https://cdn.pixabay.com/photo/2017/01/29/13/48/geometric-2018038_960_720.png");
+body, html{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/430/993/large/damian-handzlik-dp-malowanie-z-wyobrazni2.jpg?1483707942");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
     padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'VT323', monospace;
  }
 
  #title{
-    background-color: #707B7C;
     height: 50px;
     width: 100%;
     position: relative;
     margin: 0;
  }
+
  #instructions{
-    background-color: #707B7C;
-    position: relative;
- 
+    background-color: #0E6251;
+    line-height: 100%;
+    border: ridge !important;
+    opacity: .8;
+    padding-top: 10px;
  }
+
  p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
  }
+
  #stats{
-    height: 100px;
-    width: 50%;
-    margin-bottom: 10px;
+    color: white
  }
+
  #presult{
-    background-color: #3636f9
- ;
-    height: 100px;
-    margin-bottom: 10px;
-    
- }
- #winsloss{
-    background-color: #3636f9
- ;
-    height: 100px;
-    margin-left: 10px;
-    margin-bottom: 10px;
- }
- #crystals{
-    margin-bottom: 10px;
- }
- #yourscore{
-    background-color: #4747ff;
-    height: 25px;
-    margin-bottom: 10px;
+    background-color: #0E6251;
     text-align: center;
-    line-height: 25px; 
+    line-height: 100%;
+    height: 30px;
+    padding: 0;
+    border: ridge !important;
+    opacity: .8;
  }
+
+ #winLoss{
+    background-color: #0E6251 !important;
+    border: ridge !important;
+    line-height: 100%;   
+    opacity: .8;
+ }
+
+ #wins{
+    line-height: 100%;
+ }
+
+ #loses{
+    line-height: 100%;
+ }
+
+ #yourscore{
+    background-color: #0E6251;
+    height: 25px;
+    text-align: center;
+    line-height: 100%; 
+    border: ridge !important;
+    padding-bottom: 5px !important;
+    opacity: .8;
+ }
+
  #score{
-    background-color: #4747ff;
-    height: 100px;
+    background-color: #0E6251;
+    height: 80px;
+    border: ridge !important;
+    opacity: .8;
  }
+
+ #scoreBox {
+     background-color: #0E6251;
+     border: ridge !important;
+     opacity: .8;
+     text-align: center
+ }
+
  h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     position: relative;
     left: 10px;
@@ -64,6 +90,14 @@ body{
     line-height: 50px;
     color: white;
  }
- #crystal1 {
-     color: rgb(21, 92, 97);
- }
+
+h1, h3{
+    color: white 
+}
+
+#button-row {
+    text-align: center
+}
+.crystalBtn {
+    position: relative;
+}
